@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="scenePane" fx:id="scenePane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="357.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.QuanLySinhVien.FormEditController">
+   <children>
+      <TextField fx:id="Ten" layoutX="200.0" layoutY="27.0" prefHeight="32.0" prefWidth="370.0" promptText="Nguyen Van A" />
+      <TextField fx:id="Lop" layoutX="200.0" layoutY="81.0" prefHeight="32.0" prefWidth="370.0" promptText="21CT112" />
+      <TextField fx:id="Khoa" layoutX="200.0" layoutY="134.0" prefHeight="32.0" prefWidth="370.0" promptText="CNTT" />
+      <TextField fx:id="Sdt" layoutX="200.0" layoutY="190.0" prefHeight="32.0" prefWidth="370.0" promptText="0123456789" />
+      <TextField layoutX="-121.0" layoutY="-74.0" prefHeight="32.0" prefWidth="370.0" />
+      <TextField fx:id="Diachi" layoutX="200.0" layoutY="247.0" prefHeight="32.0" prefWidth="370.0" promptText="BienHoa" />
+      <Button id="AddButton" fx:id="EditButton" layoutX="200.0" layoutY="296.0" mnemonicParsing="false" onAction="#Edit" prefHeight="32.0" prefWidth="150.0" text="Edit" />
+      <Button id="ExitButton" fx:id="ExitButton" layoutX="420.0" layoutY="296.0" mnemonicParsing="false" onAction="#Exit" prefHeight="32.0" prefWidth="150.0" text="Exit" />
+      <Text layoutX="64.0" layoutY="104.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Class" wrappingWidth="102.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="64.0" layoutY="50.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Name" wrappingWidth="102.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="64.0" layoutY="157.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Khoa" wrappingWidth="102.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="64.0" layoutY="213.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Phone" wrappingWidth="102.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="64.0" layoutY="270.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Address" wrappingWidth="102.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>
